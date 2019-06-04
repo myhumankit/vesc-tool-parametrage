@@ -165,6 +165,12 @@
                             "url": "images/firmware-upload3.png",
                             "caption": "Attendre 10 secondes avant de débrancher la carte"
                         }
+                    },
+                    {
+                        "image": {
+                            "url": "images/carte-version-VESC.jpg",
+                            "caption": "Version de la carte"
+                        }
                     }
                 ]
             }
