@@ -5,7 +5,7 @@
         "short_description": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.",
+        "about": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.\n",
         "status": "draft",
         "links": [
             {
@@ -32,9 +32,97 @@
         "contributors": [
             {
                 "full_name": "Delphine Bézier",
+                "role": "Fabmanager référent",
                 "email": "delphine@myhumankit.org",
-                "github_username": "mnct",
-                "role": "Fabmanager référent"
+                "github_username": "mnct"
+            }
+        ],
+        "steps": [
+            {
+                "title": "Installer le logiciel VESC Tool",
+                "duration": 300,
+                "content": "Pour pouvoir télécharger le logiciel vous avez besoin de vous créer un compte, y compris pour la version gratuite que nous utilisons ici. Elle se situe en bas de la page suivante :\n\nhttps://vesc-project.com/vesc_tool\n\nInstaller ensuite le logiciel selon le système d'exploitation de votre PC."
+            },
+            {
+                "title": "Préparation de l'environnement pour configurer la carte",
+                "duration": 300,
+                "content": "Afin de paramétrer la carte nous devons faire le montage électronique du schéma suivant",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/schema-wiring.jpg",
+                            "caption": "Schéma"
+                        }
+                    }
+                ],
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "controleur-esc",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "batterie-lipo",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "potentiometre-b10k",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "moteur-brushless",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bms",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "cable-silicone-grosse-section -10AWG-5mm2",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "cable-multibrin-diametre -1mm2",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "connecteur-jst-femelle-p2mm-pas2mm-3points",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "connecteur-jst-femelle-p2mm-pas2mm-6 points",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "cosses-a-sertir-adaptees-au-jst",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "condensateur2000uF-si-necessaire",
+                            "quantity": 1
+                        }
+                    }
+                ]
             }
         ]
     }
