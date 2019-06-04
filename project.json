@@ -123,6 +123,25 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Connection de la carte pour communiquer avec le logiciel",
+                "duration": 300,
+                "content": "Brancher la carte ESC en USB et l'alimenter sur la batterie comme indiqué sur le schéma. \n\nDans l'onglet Connections>USB Serial, cliquer sur Refresh serial port list avec l'option Baud sur 115200. (Voir image ci-contre)\n\nSi aucun port n'est détecté, laisser le câble USB branché, et redémarrer le logiciel.\n\nCliquer ensuite sur l'icône Connection (photo ci-contre)\n\nEn cas de message d'erreurconcernant le firmware, il faut le mettre à jour (voir étape suivante).",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/connection-serial-refresh.png",
+                            "caption": "Mise à jour des ports série (refresh serial)"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/connection-connection.png",
+                            "caption": "Connecter la carte au logiciel"
+                        }
+                    }
+                ]
             }
         ]
     }
