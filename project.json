@@ -192,6 +192,61 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Configuration du moteur",
+                "duration": 300,
+                "content": "Pour paramétrer le moteur, aller sur l'onglet Motor settings (fenêtre de gauche). \n\nPuis cliquer en bas de la fenêtre principale sur Motor setup wizard. Cliquer sur Next après la page d'accueil.\n\n**Load defaut configuration**\nCliquer sur Yes si c'est la première configuration de la carte sinon si vous souhaitez conserver une configuration existante cliquer sur Non.\n\n**Choix du type de moteur : Choose Motor Type **\n* Motor type : choisir BLDC (ouvrir le menu en cliquant sur la flèche vers le bas)\n\n**Configurer les limites de courant : Set Currents Limits**\nAttention une mauvaise configuration (limite de courant top haute) peut endommager le moteur, la carte et / ou la batterie\n* Motor Current max :15,00A\n* Battery Current max : 20,00A\nLaisser les autres paramètres sur 0. Cliquer ensuite sur Next.\n\n**Configurer le seuil de consommation de courant de la batterie pour éviter que la batterie se décharge : Configure Battery cutoff**\n* Cliquer sur Yes si vous utilisez une batterie (No si vous utilisez une alimentation stabilisée)\n\n**Configurer les limites de tension : Set Voltage Limits**\n**Si utilisation d'une batterie de vélo 42V**\n\nEntrer les valeurs suivantes dans la fenêtre Battery Cutoff calculator (partie inférieur de la fenêtre) puis cliquer sur Apply pour que les limites de tensions s'actualisent dans la fenêtre supérieure\n* Type: Lithium Ion (full at 4.2V/cell)\n* Cells : 12\n\n**Si utilisation d'une alimentation stabilisée**\nNotre batterie contient 5 éléments (cells)\n* Cells: 5, ce qui représente entre 17 et 15.5V\n\n**Choix des types de capteur si le moteur en a : Choose Sensor Mode**\n* Ici nous n'en n'avons pas donc on choisit : No sensor (Sensorless)\n\n**Configuration du BLDC: BLDC settings**\n\nDans l'onglet BLDC Parameters, indiquer les valeurs comme ci-dessous et cliquer sur l'icone triangle :start detection. Puis cliquer sur OK après avoir vérifier que rien n'encombre la rotation du moteur. Cliquer ensuite sur Apply, puis Finish.\n\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/motor-setup-wizard.png",
+                            "caption": "Motor Setup Wizard"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/choose-motor-type.png",
+                            "caption": "Choose Motor Type"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/set-current-limits.png",
+                            "caption": "Set Current Limits"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/configure-battery-cutoff.png",
+                            "caption": "Configure Battery Cutoff"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/set-voltage-limits.png",
+                            "caption": "Set Voltage Limits avec Batterie"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/set-voltage-limits-alim-stabilisee.png",
+                            "caption": "Set Voltage Limits avec Alimentation stabilisée"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/choose-sensor-mode.png",
+                            "caption": "Choose Sensor Mode"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/BLDC-settings.png",
+                            "caption": "BLDC settings"
+                        }
+                    }
+                ]
             }
         ]
     }
