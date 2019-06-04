@@ -146,7 +146,7 @@
             {
                 "title": "Charger le firmware sur la carte",
                 "duration": 60,
-                "content": "VESC Tool>Onglet Firmware (à gauche)>Onglet included file (à droite)\n\nAvant tout, il faut vérifier la version de votre carte contrôleur, la référence est inscrite dessus (image ci-contre).\n\nATTENTION: un mauvais firmware peut endommager définitvement la carte !! \n\nUploader le firmware VESC_default.bin correspondant au hardware v4.12 et attendre au moins 10 secondes avant de le débrancher comme indiqué dans le message au cours de la procédure.\n\nSélectionner la version de la carte dans la fenêtre de gauche (V 4.12) et VESC_defaut.bin dans la fenêtre de droite. Cliquer sur le bouton upload (flèche vers le bas). Voir images.\n\nVoir la manipulation sur le site du fabricant (https://vesc-project.com/node/179)",
+                "content": "VESC Tool>Onglet Firmware (à gauche)>Onglet included file (à droite)\n\nAvant tout, il faut vérifier la version de votre carte contrôleur, la référence est inscrite dessus (image ci-contre).\n\nATTENTION: un mauvais firmware peut endommager définitvement la carte !! \n\nUploader le firmware VESC_default.bin correspondant au hardware v4.12 et attendre au moins 10 secondes avant de le débrancher comme indiqué dans le message au cours de la procédure.\n\nSélectionner la version de la carte dans la fenêtre de gauche (V 4.12) et VESC_defaut.bin dans la fenêtre de droite. Cliquer sur le bouton upload (flèche vers le bas). Voir images.\n\nUne fois le firmware téléversé, bien attendre les 10 secondes pour le cordon USB entre  la carte et l'ordinateur\n\nVoir la manipulation sur le site du fabricant (https://vesc-project.com/node/179)",
                 "media": [
                     {
                         "image": {
@@ -170,6 +170,25 @@
                         "image": {
                             "url": "images/carte-version-VESC.jpg",
                             "caption": "Version de la carte"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Reconnecter la carte",
+                "duration": 60,
+                "content": "Reconnecter la carte (voir étape :Connection de la carte pour communiquer avec le logiciel) pour tout le détail.\nAller dans l'onglet Connection (à gauche) >USB Serial (à droite) et cliquer sur refresh avant de cliquer sur Connecter.\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/rafraichir-ports.png",
+                            "caption": "Rafraîchir ports"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/reconnect.png",
+                            "caption": "Reconnecter"
                         }
                     }
                 ]
