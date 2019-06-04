@@ -1,0 +1,41 @@
+{
+    "project": {
+        "full_name": "VESC Tool paramétrage",
+        "slug": "vesc-tool-parametrage",
+        "short_description": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.",
+        "lang": "fr",
+        "license": "CC BY",
+        "about": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.",
+        "status": "draft",
+        "links": [
+            {
+                "url": "https://rennes.humanlab.me/projet/vesc-tool-parametrage/",
+                "text": "page d'accueil du projet sur le GesLab",
+                "fa5_icon": "fas fa-home"
+            },
+            {
+                "url": "http://wikilab.myhumankit.org/index.php?title=Projets:Vesc_tool_parametrage",
+                "text": "page wiki du projet sur le wiki du Humanlab",
+                "fa5_icon": "fab fa-wikipedia-w"
+            },
+            {
+                "url": "https://framateam.org/myhumankit/channels/vesc-tool-parametrage",
+                "text": "canal de discussion sur Framateam",
+                "fa5_icon": "fas fa-comments"
+            },
+            {
+                "url": "https://github.com/myhumankit/vesc-tool-parametrage",
+                "text": "code source de la documentation sur GitHub",
+                "fa5_icon": "fab fa-github"
+            }
+        ],
+        "contributors": [
+            {
+                "full_name": "Delphine Bézier",
+                "email": "delphine@myhumankit.org",
+                "github_username": "mnct",
+                "role": "Fabmanager référent"
+            }
+        ]
+    }
+}
