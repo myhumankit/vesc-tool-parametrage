@@ -194,9 +194,9 @@
                 ]
             },
             {
-                "title": "Configuration du moteur",
+                "title": "Configuration du moteur via Motor Setup Wizard",
                 "duration": 300,
-                "content": "Pour paramétrer le moteur, aller sur l'onglet Motor settings (fenêtre de gauche). \n\nPuis cliquer en bas de la fenêtre principale sur Motor setup wizard. Cliquer sur Next après la page d'accueil.\n\n**Load defaut configuration**\nCliquer sur Yes si c'est la première configuration de la carte sinon si vous souhaitez conserver une configuration existante cliquer sur Non.\n\n**Choose Motor Type : Choix du type de moteur **\n* Motor type : choisir BLDC (ouvrir le menu en cliquant sur la flèche vers le bas)\n\n** Set Currents Limits : Configurer les limites de courant**\nAttention une mauvaise configuration (limite de courant top haute) peut endommager le moteur, la carte et / ou la batterie\n* Motor Current max :15,00A\n* Battery Current max : 20,00A\nLaisser les autres paramètres sur 0. Cliquer ensuite sur Next.\n\n**Configure Battery cutoff : Configurer le seuil de consommation de courant de la batterie pour éviter que la batterie se décharge **\n* Cliquer sur Yes si vous utilisez une batterie (No si vous utilisez une alimentation stabilisée)\n\n**Set Voltage Limits : Configurer les limites de tension **\n**Si utilisation d'une batterie de vélo 42V**\nEntrer les valeurs suivantes dans la fenêtre Battery Cutoff calculator (partie inférieur de la fenêtre) puis cliquer sur Apply pour que les limites de tensions s'actualisent dans la fenêtre supérieure\n* Type: Lithium Ion (full at 4.2V/cell)\n* Cells : 12\n\n**Si utilisation d'une alimentation stabilisée**\nNotre batterie contient 5 éléments (cells)\n* Cells: 5, ce qui représente entre 17 et 15.5V\n\n**Choix des types de capteur si le moteur en a : Choose Sensor Mode**\n* Ici nous n'en n'avons pas donc on choisit : No sensor (Sensorless)\n\n**BLDC settings : Configuration du BLDC**\n\nDans l'onglet BLDC Parameters, indiquer les valeurs comme ci-dessous et cliquer sur l'icone triangle :start detection. Puis cliquer sur OK après avoir vérifier que rien n'encombre la rotation du moteur. Cliquer ensuite sur Apply, puis Finish.\n\n",
+                "content": "Pour paramétrer le moteur, aller sur l'onglet Motor settings (fenêtre de gauche). \n\nPuis cliquer en bas de la fenêtre principale sur Motor setup wizard. Cliquer sur Next après la page d'accueil.\n\n**Load defaut configuration**\nCliquer sur Yes si c'est la première configuration de la carte sinon si vous souhaitez conserver une configuration existante cliquer sur Non.\n\n**Choose Motor Type : Choix du type de moteur **\n* Motor type : choisir BLDC (ouvrir le menu en cliquant sur la flèche vers le bas)\n\n** Set Currents Limits : Configurer les limites de courant**\nAttention une mauvaise configuration (limite de courant top haute) peut endommager le moteur, la carte et / ou la batterie\n* Motor Current max :15,00A\n* Battery Current max : 20,00A\nLaisser les autres paramètres sur 0. Cliquer ensuite sur Next.\n\n**Configure Battery cutoff : Configurer le seuil de consommation de courant de la batterie pour éviter que la batterie se décharge **\n* Cliquer sur Yes si vous utilisez une batterie (No si vous utilisez une alimentation stabilisée)\n\n**Set Voltage Limits : Configurer les limites de tension **\n\n**Si utilisation d'une batterie de vélo 42V**\n\nEntrer les valeurs suivantes dans la fenêtre Battery Cutoff calculator (partie inférieur de la fenêtre) puis cliquer sur Apply pour que les limites de tensions s'actualisent dans la fenêtre supérieure\n* Type: Lithium Ion (full at 4.2V/cell)\n* Cells : 12\n\n**Si utilisation d'une alimentation stabilisée**\n\nNotre batterie contient 5 éléments (cells)\n* Cells: 5, ce qui représente entre 17 et 15.5V\n\n**Choix des types de capteur si le moteur en a : Choose Sensor Mode**\n\n* Ici nous n'en n'avons pas donc on choisit : No sensor (Sensorless)\n\n**BLDC settings : Configuration du BLDC**\n\nDans l'onglet BLDC Parameters, indiquer les valeurs dans la partie inférieure de la fenêtre principale (voir photo BLDC Settings) et cliquer sur l'icone triangle :start detection. Puis cliquer sur OK après avoir vérifier que rien n'encombre la rotation du moteur. Cliquer ensuite sur Apply, puis Finish.\n\n",
                 "media": [
                     {
                         "image": {
@@ -244,6 +244,56 @@
                         "image": {
                             "url": "images/BLDC-settings.png",
                             "caption": "BLDC settings"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Sauver la configuration du moteur",
+                "duration": 10,
+                "content": "Pour sauver la configuration du moteur cliquer sur le M avec flèche du bas dans le menu de gauche.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/write-motor-config.png",
+                            "caption": "Write Motor Config"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Configuration complémentaire du moteur et/ou rectification: Moteur settings>General",
+                "duration": 300,
+                "content": "Regarder les images pour entrer les paramètres. \n\n**Moteur settings>General (Menu de gauche ), Onglet General (Menu de droite)**\n\n**Moteur settings>General>Voltage**\n\n**Moteur settings>General>RPM**\n\n**Moteur settings>General>Wattage**\n\n**Moteur settings>General>Temperature**\n\n**Moteur settings>>Additional infos**\nCes infos complémentaires resteront dans le contrôleur ",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/general-general.png",
+                            "caption": "Motor Settings>General>General"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/general-voltage.png",
+                            "caption": "Motor settings>General>Voltage"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/general-rpm.png",
+                            "caption": "Motor settings>General>RPM"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/general-wattage.png",
+                            "caption": "Motor settings>General>Wattage"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/general-temperature.png",
+                            "caption": "Motor settings>General>Temperature"
                         }
                     }
                 ]
