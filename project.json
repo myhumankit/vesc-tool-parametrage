@@ -251,18 +251,18 @@
             {
                 "title": "Sauver la configuration du moteur",
                 "duration": 10,
-                "content": "Pour sauver la configuration du moteur cliquer sur le M avec flèche du bas dans le menu de gauche.",
+                "content": "Pour sauver la configuration du moteur cliquer sur le M avec flèche du bas (Write Motor Configuration) dans le menu de gauche.",
                 "media": [
                     {
                         "image": {
                             "url": "images/write-motor-config.png",
-                            "caption": "Write Motor Config"
+                            "caption": "Write Motor Configuration"
                         }
                     }
                 ]
             },
             {
-                "title": "Configuration complémentaire du moteur et/ou rectification: Moteur settings>General",
+                "title": "Configuration générale du moteur : Moteur settings>General",
                 "duration": 300,
                 "content": "Regarder les images pour entrer les paramètres. \n\n**Moteur settings>General (Menu de gauche ), Onglet General (Menu de droite)**\n\n**Moteur settings>General>Voltage**\n\n**Moteur settings>General>RPM**\n\n**Moteur settings>General>Wattage**\n\n**Moteur settings>General>Temperature**\n\n**Moteur settings>>Additional infos**\nCes infos complémentaires resteront dans le contrôleur ",
                 "media": [
@@ -294,6 +294,37 @@
                         "image": {
                             "url": "images/general-temperature.png",
                             "caption": "Motor settings>General>Temperature"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Configuration BLDC du moteur : BLDC>General",
+                "duration": 300,
+                "content": "Regarder les images pour entrer les paramètres\n\n**Moteur settings>BLDC>General**\n\n**Moteur settings>BLDC>Sensorless**\nAppuyer sur play pour détection. Detection failed (car on n'a pas de sensors ...)\n\n**Moteur settings>BLDC>Sensors**\n\n**Moteur settings>BLDC>Advanced**\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/BLDC-general.png",
+                            "caption": "BLDC>General"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/BLDC-sensorless.png",
+                            "caption": "BLDC>Sensorless"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/BLDC-sensors",
+                            "caption": "BLDC>Sensors"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/BLDC-advanced.png",
+                            "caption": "BLDC>Advanced"
                         }
                     }
                 ]
