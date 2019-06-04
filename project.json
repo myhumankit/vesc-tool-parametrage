@@ -126,7 +126,7 @@
             },
             {
                 "title": "Connection de la carte pour communiquer avec le logiciel",
-                "duration": 300,
+                "duration": 60,
                 "content": "Brancher la carte ESC en USB et l'alimenter sur la batterie comme indiqué sur le schéma. \n\nDans l'onglet Connections>USB Serial, cliquer sur Refresh serial port list avec l'option Baud sur 115200. (Voir image ci-contre)\n\nSi aucun port n'est détecté, laisser le câble USB branché, et redémarrer le logiciel.\n\nCliquer ensuite sur l'icône Connection (photo ci-contre)\n\nEn cas de message d'erreurconcernant le firmware, il faut le mettre à jour (voir étape suivante).",
                 "media": [
                     {
@@ -139,6 +139,31 @@
                         "image": {
                             "url": "images/connection-connection.png",
                             "caption": "Connecter la carte au logiciel"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Charger le firmware sur la carte",
+                "duration": 60,
+                "content": "VESC Tool>Onglet Firmware (à gauche)>Onglet included file (à droite)\n\nAvant tout, il faut vérifier la version de votre carte contrôleur, la référence est inscrite dessus (image ci-contre).\n\nATTENTION: un mauvais firmware peut endommager définitvement la carte !! \n\nUploader le firmware VESC_default.bin correspondant au hardware v4.12 et attendre au moins 10 secondes avant de le débrancher comme indiqué dans le message au cours de la procédure.\n\nSélectionner la version de la carte dans la fenêtre de gauche (V 4.12) et VESC_defaut.bin dans la fenêtre de droite. Cliquer sur le bouton upload (flèche vers le bas). Voir images.\n\nVoir la manipulation sur le site du fabricant (https://vesc-project.com/node/179)",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/firmware-upload.png",
+                            "caption": "Charger le firmware"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/firmware-upload2.png",
+                            "caption": "message d'avertissement sur la réinitialisation de la carte"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/firmware-upload3.png",
+                            "caption": "Attendre 10 secondes avant de débrancher la carte"
                         }
                     }
                 ]
