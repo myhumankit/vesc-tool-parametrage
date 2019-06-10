@@ -409,6 +409,25 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Implémentation de l'accélérateur",
+                "duration": 300,
+                "content": "Débrancher la carte de son alimentation\nRemplacer le potentiomètre par l'accélérateur en suivant la même logique pour les connexions\n*  +3V\n*  GND\n*  ADC\n\nSur l'alimentation, mettre l'intensité au maximum , et sur 16V. \n\nPuis rebrancher la carte VESC sur l'alimentation puis en usb sur l'ordinateur.\n\nDans VESC Tools, se reconnecter , icône tout en haut à droite (cf: image Reconnect)\n\t\t\nApp settings>ADC>Mapping>ADC Voltage Mapping \n\nCliquer sur RT (cf: image RT)\nRefaire la manipulation au même endroit que pour le potentiomètre dans l'étape précédente\n\t\t\n*  Clic sur reset (fleche qui tourne) face au duty cycle\n*  Config min et max (voir chapitre potentiomètre)\n*  clic sur apply",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/reconnect.png",
+                            "caption": "Reconnect"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/ADC-mapping-RT.png",
+                            "caption": "message activate RT"
+                        }
+                    }
+                ]
             }
         ]
     }
