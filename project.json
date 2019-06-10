@@ -330,9 +330,9 @@
                 ]
             },
             {
-                "title": "Configuration FOC du moteur : Moteur settings>FOC>General",
+                "title": "Configuration FOC du moteur : Moteur settings>FOC",
                 "duration": 300,
-                "content": "Moteur settings>FOC>General\n\nRegarder les images pour entrer les paramètres\nEntrer les valeurs de I, D et W comme sur l'image ci-dessous dans la fenêtre du bas.\n\nPuis, activer dans le menu de droite RT et RT APP.\nEnsuite dans la fenêtre \"Detect and calculate parameters\"\n    * Cliquer sur RL\n    * Attendre la détection\n    * Cliquer sur Lambda (y à l'envers)\n    * Attendre la détection mais le moteur n'est pas censé tourner\n    * Cliquer sur Apply pour appliquer les paramètres\n",
+                "content": "Moteur settings>FOC>General\n\nRegarder les images pour entrer les paramètres\nEntrer les valeurs de I, D et W comme sur l'image ci-dessous dans la fenêtre du bas.\n\nPuis, activer dans le menu de droite RT et RT APP.\nEnsuite dans la fenêtre \"Detect and calculate parameters\"\n    * Cliquer sur RL (\" measure resistance and inductance\")\n    * Attendre la détection\n    * Cliquer sur Lambda (y à l'envers :\"measure flux linkage \")\n    * Attendre la détection mais le moteur n'est pas censé tourner\n    * Cliquer sur Apply pour appliquer les paramètres\n \n Moteur settings>FOC>Sensorless\n \n Regarder l'image ci-contre pour entrer les paramètres\n \nLaisser les autres onglets de FOC par défaut\n\nPuis sauver les paramètres du moteur, \"write motor configuration\" (M avec flèche vers le bas dans le menu de droite)",
                 "media": [
                     {
                         "image": {
@@ -356,6 +356,25 @@
                         "image": {
                             "url": "images/FOC-general-apply.png",
                             "caption": "Apply : appliquer les paramèrtres"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/FOC-sensorless.png",
+                            "caption": "FOC sensorless"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Configuration PID : Motor settings>PID controllers",
+                "duration": 300,
+                "content": "Regarder l'image ci-contre pour entrer les paramètres.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/FOC-PID.png",
+                            "caption": "FOC-PID"
                         }
                     }
                 ]
