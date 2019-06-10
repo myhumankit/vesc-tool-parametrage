@@ -378,6 +378,37 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Configuration générale de l'application",
+                "duration": 300,
+                "content": "App settings>General\n\n   * app to use : ADC\n   * VESC ID :0 (on devrait en mettre si on avait plusieurs cartes vesc)\n\nLaisser le reste par défaut.\nEcrire la nouvelle config sur la carte  en cliquant sur \"write app config\" (A avec flèche vers le bas dans le menu de droite)\n\nApp settings>PPM>General\n  * PPM correspond à PWM, là on ne s'en sert pas donc on laisse les réglages par défaut.\n\n  * Throttle curve (si on veut changer la courbe mais nous on ne la change pas). Si on mettait en négatif -100%, on aurait quelque chose de très réactif, la vitesse augmenterait à fond avec une petite variation de courant.\n\n  * Throttle brake (réglage frein de la même manière).\n\nApp settings>ADC>General\n  * control Type : duty cycle\n  *  use filter :true\n  * self start :true (demarrage progressif)\n\nSauvergarder app settings \n\nApp settings>ADC>Mapping\n* On alimente en 3.3v le potentiomètre.\n* ADC Voltage mapping selection menu:Duty cycle\n* Cliquer sur \"apply\"\n* Cliquer à droite dans menu stream real time data (photo)\n\nProcédure pour mapper les valeurs du potentiomètre (qui sera remplacé par un accélérateur)\n* reset min et max (photo)\n* on bouge le potentiomètre au min et au max\n* cliquer sur apply (photo)\n\nOn peut visualiser que les valeurs affichées dans la fenêtre du haut \n\n\nPour démarrer le moteur il faut être à zéro (sécurité intégrée) sinon il né démarre pas donc attention à la position du potentiomètre pour le démarrage!! \n\nLes autres onglets par défaut(UART, Nunchuck off, NRF ).\n\nOn a enregistré nos paramètres pour une version à 16V et 3 ampères.\n\nSur un moteur pas à pas on augmente la fréquence donc tourne plus vite, sur moteur brushless (notre cas) on envoie une plus grosse tension et le moteur va aller plus vite à son point . On augmente la tension (et pas la fréquence). (On envoie un champs un magnétique important, la vitesse va augmenter.Comme il arrive plus vite il faut envoyer la commande avant).\n\n\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/app-general.png",
+                            "caption": "App settings - General"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/app-ADC-general.png",
+                            "caption": "app-ADC-general"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/APP-ADC-mapping.png",
+                            "caption": "APP-ADC-mapping"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/mapping-ADC-png",
+                            "caption": "mapping-ADC"
+                        }
+                    }
+                ]
             }
         ]
     }
