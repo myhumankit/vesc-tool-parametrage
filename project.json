@@ -4,7 +4,7 @@
         "slug": "vesc-tool-parametrage",
         "short_description": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.",
         "lang": "fr",
-        "license": "CC BY",
+        "license": "CC BY-SA",
         "about": "Ce projet récapitule le paramétrage d'un moteur de vélo contrôlé par la carte VESC en utilisant le programme VESC Tool, conçu par Benjamin Vedder.\n",
         "status": "draft",
         "links": [
@@ -325,6 +325,37 @@
                         "image": {
                             "url": "images/BLDC-advanced.png",
                             "caption": "BLDC>Advanced"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Configuration FOC du moteur : Moteur settings>FOC>General",
+                "duration": 300,
+                "content": "Moteur settings>FOC>General\n\nRegarder les images pour entrer les paramètres\nEntrer les valeurs de I, D et W comme sur l'image ci-dessous dans la fenêtre du bas.\n\nPuis, activer dans le menu de droite RT et RT APP.\nEnsuite dans la fenêtre \"Detect and calculate parameters\"\n    * Cliquer sur RL\n    * Attendre la détection\n    * Cliquer sur Lambda (y à l'envers)\n    * Attendre la détection mais le moteur n'est pas censé tourner\n    * Cliquer sur Apply pour appliquer les paramètres\n    \n**Moteur settings>BLDC>General**\n\n**Moteur settings>BLDC>Sensorless**\nAppuyer sur play pour détection. Detection failed (car on n'a pas de sensors ...)\n\n**Moteur settings>BLDC>Sensors**\n\n**Moteur settings>BLDC>Advanced**\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/FOC-general-RL_measure.png",
+                            "caption": "Mesure RL"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/FOC-general-lambda.png",
+                            "caption": "Mesure lambda.png"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/FOC-general-lambda2.png",
+                            "caption": "Message d'alerte"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/FOC-general-apply.png",
+                            "caption": "Apply : appliquer les paramèrtres"
                         }
                     }
                 ]
